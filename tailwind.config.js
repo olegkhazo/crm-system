@@ -15,6 +15,12 @@ module.exports = {
       },
     },
     extend: {
+      transitionDuration: {
+        DEFAULT: '333ms',
+      },
+      transitionTimingFunction: {
+        DEFAULT: 'ease-in-out',
+      },
       colors: {
         border: "var(--border)",
         input: "var(--input)",
